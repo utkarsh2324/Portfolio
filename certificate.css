@@ -1,0 +1,84 @@
+.side {
+    display: flex;
+    justify-content: flex-end; /* Center items horizontally by default */
+    font-size: clamp(10px, 2vw, 20px);
+    font-family:sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+.link{
+    color: inherit; /* Make sure the link color inherits from the button */
+    text-decoration: none;
+}
+.utk{
+    font-size: clamp(25px, 5vw, 20px);
+    font-weight: bold;
+   
+    font-family:system-ui;
+    color:black;
+  padding: auto;
+}
+
+.side .nav-link {
+    color: black; /* Color for text within the <a> tags */
+    text-decoration: none; /* Remove underline if desired */
+}
+.navbar-toggler {
+    border: 1px solid #ffffff; /* Set the border color (e.g., white) */
+    background-color: #000000; /* Set the background color (e.g., black) */
+}
+.cont{
+    
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: serif;
+    background: linear-gradient(to right, #ff8177 0%, #ff867a 21%, #ff8c7f 52%, #f99185 78%, #cf556c 100%);
+    -webkit-background-clip: text; /* For Safari and Chrome */
+    -webkit-text-fill-color: transparent; /* For Safari and Chrome */
+    background-clip: text; /* Standard for other browsers */
+    text-fill-color: transparent; /* Standard for other browsers */}
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    .cont {
+        animation: slideIn 3s ease-out;
+    }
+    .cert{
+        text-align: center;
+    }
+    .fl{
+        border: 3px solid black;
+        border-radius: 10px;
+        height:50%;
+        width:50vp;
+        
+    }
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%); /* Start from off-screen on the left */
+            opacity: 0; /* Start fully transparent */
+        }
+        to {
+            transform: translateX(0); /* End at the original position */
+            opacity: 1; /* End fully opaque */
+        }
+    }
+    
+    .fl {
+        border: 4px solid black; /* Border with color */
+        padding: 20px; /* Optional: padding to ensure content doesn't touch the border */
+        animation: slideIn 4s ease-out; /* Apply the slide-in animation */
+    }
+    
+    .micro{
+        font-family: serif;
+    }

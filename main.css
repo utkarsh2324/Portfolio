@@ -1,0 +1,208 @@
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    
+}
+/* Default styling */
+.side {
+    display: flex;
+    justify-content: flex-end; /* Center items horizontally by default */
+    font-size: clamp(10px, 2vw, 20px);
+    font-family:sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+.link{
+    color: inherit; /* Make sure the link color inherits from the button */
+    text-decoration: none;
+}
+.utk{
+    font-size: clamp(25px, 5vw, 20px);
+    font-weight: bold;
+   
+    font-family:system-ui;
+    color:black;
+  padding: auto;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); /* Start off-screen to the left */
+        opacity: 0; /* Fully transparent */
+    }
+    to {
+        transform: translateX(0); /* End at the original position */
+        opacity: 1; /* Fully opaque */
+    }
+}
+
+.con1 {
+    animation: slideIn 3s ease-out;
+}
+
+
+
+.side .nav-link {
+    color: black; /* Color for text within the <a> tags */
+    text-decoration: none; /* Remove underline if desired */
+}
+.navbar-toggler {
+    border: 1px solid #ffffff; /* Set the border color (e.g., white) */
+    background-color: #000000; /* Set the background color (e.g., black) */
+}
+.con{
+
+    margin-top:5%;
+    font-size:2rem;
+    font-family:serif;
+}
+.con1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: serif;
+    background: linear-gradient(to right, #ff8177 0%, #ff867a 21%, #ff8c7f 52%, #f99185 78%, #cf556c 100%);
+    -webkit-background-clip: text; /* For Safari and Chrome */
+    -webkit-text-fill-color: transparent; /* For Safari and Chrome */
+    background-clip: text; /* Standard for other browsers */
+    text-fill-color: transparent; /* Standard for other browsers */
+}
+
+.main{
+    text-align:center;
+}
+/* Ensure the container takes full available width and height */
+/* Container styling */
+.imgf {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom:2%;
+    
+}
+
+/* Image styling */
+.imgf img {
+    height: 400px; /* Set image height */
+    width: 400px; /* Set image width */
+    border-radius: 50%; /* Make the image circular */
+    object-fit:fill; /* Ensure the image covers the circle */
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+.bi {
+    fill: black; /* Set the color to black */
+}
+.foot{
+    text-align: center;
+   /* Center the container horizontally */
+    padding: 20px;
+    border-radius: 10%;
+}
+/* Custom button styling */
+.btn-custom {
+     /* Set your desired background color */
+    color: black; /* Set the text color */
+    border: 1px; /* Remove the default border */
+}
+
+.btn-custom:hover {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    color: white; /* Ensure text color remains white on hover */
+    border: none; /* Ensure border is removed on hover */
+}
+.butt {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Add space between buttons (adjust as needed) */
+}
+.bu{
+
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);}
+.exit{
+    font-family: serif;
+    font-size: 4rem;
+}
+.col24{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 20px;
+}
+
+.col-color{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.land{
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+.edu{
+    font-size: 20px;
+    text-align: left;
+    font-family: serif;
+}
+.fw-normal{
+    font-size:2rem;
+    font-family: serif;
+}
+.end{
+    background: linear-gradient(to right, #ff8177 0%, #ff867a 21%, #ff8c7f 52%, #f99185 78%, #cf556c 100%);
+    border-radius: 20px;
+}
+.bor{
+    border-radius: 20%;
+}
+.utka{
+   
+    fill: #007bff; /* Replace this color with the one you want */
+   
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.col-md-4 {
+    flex: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ms-3 {
+    margin-left: 1rem;
+}
+
+/* Optional: Hover effects */
+.text-body-secondary:hover {
+    color: #007bff; /* Or any color you prefer */
+}
+.contact {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 400px; /* Adjust as needed */
+}
+
+    
