@@ -22,7 +22,7 @@ const projects = [
     description: 'Personal portfolio site showcasing projects, skills, and resume. Features dark theme and Vanta.js background.',
     tech: ['React', 'Tailwind CSS', 'Vanta.js'],
     link: 'https://yourportfolio.demo',
-    github: 'https://github.com/yourgithub/portfolio',
+    github: 'https://github.com/utkarsh2324/Portfolio',
   },
   {
     title: 'YourTube(Ongoing)',
